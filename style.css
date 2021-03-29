@@ -1,0 +1,144 @@
+
+/*General Colors and Fonts*/
+
+body {
+	background-color: #f7f2ed;
+	color: #3c3c3c;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 50px;
+}
+h1, h2 { 
+	color: #005450;
+	font-family: "EB Garamond", Sans-serif;
+	font-style: italic;
+	font-weight: 700; 
+	text-align: center;
+    margin: 10px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+	font-size: 30px;
+    padding: 10px;
+    border: 2px solid #3c3c3c;
+}
+h3{
+	font-weight: bold;
+    margin: 10px auto;
+    font-size: 19px;
+}
+a {
+	text-decoration: none;
+    color: #1a7163;
+    font-weight: 400;
+}
+a:hover { 
+	color: #1a7163;
+}
+
+/*Class designs*/
+
+
+.container{
+	width: 1100px;
+    margin: 10px auto;
+}
+
+#introduction{
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+
+.img-trim {
+	width: 40%;
+	border-radius: 30px;
+}
+
+#img-smaller{
+	width: 20%
+}
+
+.card-white{
+	background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px #835858;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #835858;
+	padding: 20px;
+}
+
+.box-padding{
+	padding: 20px;
+}
+
+.front-light{
+	font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 30px;
+}
+
+.btn-green{
+	background-color: white;
+	border: 5px solid #1a7163;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-green:hover{
+	background-color: rgb(210 210 210);
+}
+
+.list-inline {
+  	list-style: none; /* kill the bullet points */
+ 	padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  	display: inline; /*  */
+  	padding: 0px 20px; /* add som left/right padding between list items */
+}
+.list-inline i{
+	font-size: 100px;
+}
+
+
+/*Responsive Container*/
+
+@media (max-width: 960px){
+	.container{
+		width: 850px;
+	    margin: 0px auto;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 600px;
+	    margin: 0px auto;
+	}
+	h1 {
+    font-size: 40px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	  	margin: 0px auto;
+	}
+	h1 {
+    font-size: 30px;
+	}
+}
